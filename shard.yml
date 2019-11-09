@@ -8,10 +8,12 @@ targets:
   cracker:
     main: src/cracker.cr
 
-crystal: 0.20.5+70
+crystal: 0.31.1
 
 license: MIT
 
 dependencies:
   cli:
-    github: mosop/cli
+    github: bcardiff/cli
+    branch: bcardiff/use-fork
+
